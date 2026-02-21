@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+.env
+.git
+.gitignore
+*.md
+!README.md
+.vscode
+.idea
+*.egg-info
+dist
+build
+.pytest_cache
+data/online_retail_II.xlsx
+models_saved/
+results/

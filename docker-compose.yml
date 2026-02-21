@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  demandai:
+    build: .
+    container_name: demandai-platform
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models_saved:/app/models_saved
+      - ./results:/app/results
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  # Run the training pipeline (one-off)
+  train:
+    build: .
+    container_name: demandai-train
+    command: python train.py
+    volumes:
+      - ./data:/app/data
+      - ./models_saved:/app/models_saved
+      - ./results:/app/results
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    profiles:
+      - train
