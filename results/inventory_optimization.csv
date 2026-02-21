@@ -1,0 +1,6 @@
+product,avg_daily_demand,demand_std,annual_demand,eoq,safety_stock,reorder_point,orders_per_year,days_of_supply,annual_ordering_cost,annual_holding_cost,total_annual_cost,lead_time_days,service_level
+Home & Living,7271.8,4454.4,2654199,10304,19385,70287,258,1,12900.0,12880.0,25780.0,7,0.95
+Kitchen & Dining,3659.5,1749.7,1335711,7309,7615,33231,183,2,9150.0,9136.25,18286.25,7,0.95
+Gifts & Party,6218.5,3898.6,2269768,9528,16966,60496,238,2,11900.0,11910.0,23810.0,7,0.95
+Garden & Outdoor,1651.4000244140625,1811.800048828125,602756,4910,7885,19445,123,3,6150.0,6137.5,12287.5,7,0.95
+Accessories & Fashion,1282.5,838.3,468111,4327,3648,12625,108,3,5400.0,5408.75,10808.75,7,0.95

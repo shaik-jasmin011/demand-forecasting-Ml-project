@@ -1,0 +1,4 @@
+product,warehouse,allocated_units,warehouse_distance_km,shipping_cost,capacity_utilization
+Home & Living,Warehouse C,12000,90,54000.0,100.0
+Home & Living,Warehouse A,10000,150,75000.0,100.0
+Home & Living,Warehouse B,8000,280,112000.0,100.0

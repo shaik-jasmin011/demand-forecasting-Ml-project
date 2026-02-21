@@ -1,0 +1,6 @@
+product,avg_daily_demand,peak_demand,demand_volatility,priority_score,priority_level
+Home & Living,7271.8,17843.8,0.613,82.0,🔴 Critical
+Garden & Outdoor,1651.4000244140625,16842.19921875,1.097000002861023,70.0,🟡 High
+Gifts & Party,6218.5,15481.3,0.627,68.0,🟡 High
+Kitchen & Dining,3659.5,7311.8,0.478,42.0,🟢 Normal
+Accessories & Fashion,1282.5,5083.5,0.654,38.0,🟢 Normal
