@@ -1,5 +1,7 @@
 # 📊 DemandAI — Demand Forecasting & Optimization Platform
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/shaik-jasmine/demand-forecasting-ml-project/main/dashboard/app.py)
+
 A production-ready demand forecasting system that uses **5 ML models** on real e-commerce data to predict future demand, optimize inventory, and plan logistics — all visualized through an interactive Streamlit dashboard.
 
 ---
